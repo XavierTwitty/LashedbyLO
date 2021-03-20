@@ -6,7 +6,7 @@ export default function Home() {
       <div className="header-body">
         <div className="gallery">
           <p> image gallery </p>
-          <button> book now </button>
+          <button> explore </button>
         </div>
       </div>
       <div className="testimonials">
