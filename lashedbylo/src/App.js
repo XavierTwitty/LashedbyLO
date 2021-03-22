@@ -11,7 +11,7 @@ function App() {
     <Router>
       <div className="App">
         <header className="header">
-          <div className="logo"> logo to the left </div>
+          <div className="logo"> logo </div>
           <ul className="nav">
             <li>
               <Link to="/"> Home </Link>

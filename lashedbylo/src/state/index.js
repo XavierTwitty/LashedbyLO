@@ -292,3 +292,27 @@ export const data = [
     price: 175,
   },
 ];
+
+export const trainingData = [
+  {
+    image: "",
+    trainingID: 1,
+    info: "",
+    time: "5 Hours",
+    price: 850,
+  },
+  {
+    image: "",
+    trainingID: 2,
+    info: "",
+    time: "2 Days",
+    price: 1000,
+  },
+  {
+    image: "",
+    trainingID: 3,
+    info: "",
+    time: "3 - 5 Days",
+    price: "TBD",
+  },
+];

@@ -1,8 +1,8 @@
 .App {
 }
- {
-  /* home page */
-}
+
+/* home page */
+
 header {
   border: 2px solid green;
   display: flex;
@@ -54,9 +54,7 @@ footer {
   height: 20rem;
 }
 
- {
-  /* Service page */
-}
+/* Service page */
 
 .service_tab {
   border: 2px solid green;
@@ -81,7 +79,7 @@ footer {
   text-align: center;
   padding-top: 1.6rem;
 }
-/* moblie  */
+/* tablet */
 
 @media (max-width: 800px) {
   body {
@@ -140,6 +138,7 @@ footer {
   }
 }
 
+/* Mobile */
 @media (max-width: 500px) {
   body {
     border: 2px solid blue;
@@ -169,8 +168,9 @@ footer {
 
   .logo {
     border: 2px solid yellow;
-    height: 4rem;
-    width: 4rem;
+    height: 6rem;
+    width: 6rem;
+    margin-left: 12rem;
   }
 
   .gallery {
@@ -198,6 +198,26 @@ footer {
   footer {
     border: 2px solid green;
     margin-top: 5%;
+    height: 10rem;
+  }
+  /* Services  */
+
+  .service_tab {
+    border: 2px solid skyblue;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 10rem;
+  }
+  .service_tab h2 {
+    width: 50%;
+    height: 5rem;
+    border: 2px solid salmon;
+    font-size: small;
+    padding: 0.3rem;
+  }
+  .service_img {
     height: 10rem;
   }
 }

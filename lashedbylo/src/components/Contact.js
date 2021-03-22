@@ -1,9 +1,55 @@
 import React from "react";
 
-export default function Services() {
+export default function Contact() {
   return (
     <div>
-      <h1> can you see me in contact </h1>
+      <form>
+        <div>
+          <label htmlFor="name">
+            <input
+              type="text"
+              placeholder="Name"
+              name="name"
+              value={""}
+              onChange={""}
+            />
+          </label>
+        </div>
+        <div>
+          <label htmlFor="email">
+            <input
+              type="email"
+              placeholder="Email"
+              name="email"
+              value={""}
+              onChange={""}
+            />
+          </label>
+        </div>
+        <div>
+          <label htmlFor="subject">
+            <input
+              type="text"
+              placeholder="Subject"
+              name="name"
+              value={""}
+              onChange={""}
+            />
+          </label>
+        </div>
+        <div>
+          <label htmlFor="textArea">
+            <textarea
+              name="textarea"
+              placeholder="Type your message here..."
+              value={""}
+              onChange={""}
+            />
+          </label>
+        </div>
+
+        <button> Submit </button>
+      </form>
     </div>
   );
 }
