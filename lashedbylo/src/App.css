@@ -79,6 +79,33 @@ footer {
   text-align: center;
   padding-top: 1.6rem;
 }
+
+/* contact page  */
+
+.container {
+  border: 5px solid darkmagenta;
+  height: 50rem;
+  width: 80%;
+  display: flex;
+  margin-left: 10%;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.contact_img {
+  border: 2px solid green;
+  height: 35rem;
+  width: 32rem;
+  margin-top: 9rem;
+}
+
+form {
+  border: 2px solid green;
+  height: 35rem;
+  width: 30rem;
+  margin-top: 9rem;
+}
+
 /* tablet */
 
 @media (max-width: 800px) {
@@ -220,4 +247,6 @@ footer {
   .service_img {
     height: 10rem;
   }
+
+  /* Contact  */
 }
