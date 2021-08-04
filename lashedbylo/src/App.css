@@ -126,7 +126,7 @@ form {
   }
 
   li {
-    border: 2px solid cadetblue;
+    border: 2px solid blue;
     display: inline;
     margin: 2% 2%;
   }
@@ -137,7 +137,7 @@ form {
   }
 
   .gallery {
-    border: 2px solid green;
+    border: 2px solid violet;
     height: 30rem;
     width: 70%;
     margin-left: 15%;
@@ -249,4 +249,28 @@ form {
   }
 
   /* Contact  */
+
+  .container {
+    border: 5px solid firebrick;
+    height: 50rem;
+    width: 82%;
+    display: flex;
+    margin-left: 10%;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .contact_img {
+    border: 2px solid green;
+    height: 35rem;
+    width: 100%;
+    margin-top: 9rem;
+  }
+
+  form {
+    border: 2px solid green;
+    height: 35rem;
+    width: 100%;
+    margin-top: 9rem;
+  }
 }
